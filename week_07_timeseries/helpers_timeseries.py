@@ -84,7 +84,7 @@ def clean_temp(dataframe: pd.DataFrame, series: pd.Series):
     """
     Function to impute missing temperature values.
 
-    Returns a temperaure column with missing values imputed.
+    Returns a temperature column with missing values imputed.
     Imputation is done with the average of the temperautes on the same
     day over all the reference years.
     """
